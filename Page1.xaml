@@ -2,12 +2,10 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="MainPageTests.Page1">
+    x:Class="MainPageTests.Page1" BackgroundColor="Pink">
     <ContentPage.Content>
         <VerticalStackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Clicked="Button_Clicked" Text="Click to return to shell" VerticalOptions="Center"/>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

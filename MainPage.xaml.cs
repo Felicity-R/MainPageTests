@@ -19,6 +19,9 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+
+            var newPage = new Page1(Shell.Current);
+            Application.Current.MainPage = newPage;
         }
     }
 
